@@ -1,0 +1,30 @@
+{
+  "name": "verifica-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npm run build && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisgoryaynov/verifica-node.git"
+  },
+  "keywords": [],
+  "author": "Matteo Carrara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denisgoryaynov/verifica-node/issues"
+  },
+  "homepage": "https://github.com/denisgoryaynov/verifica-node#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.46",
+    "@babel/core": "^7.0.0-beta.46",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.46",
+    "@babel/preset-env": "^7.0.0-beta.46"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
